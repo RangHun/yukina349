@@ -1,0 +1,59 @@
+/*
+Theme Name: Yukina用模板
+Theme URI: https://www.yukinatw.com
+Author: 軟翰
+Author: https://www.yukinatw.com
+Template: cenote
+Description: Yukina用模板
+Version: 0.1
+*/
+/*line按鈕手機板*/
+@media (max-width: 959px) {
+	.footer-pc{
+		display: none;
+	}
+	.IG-mobile{
+        position: fixed;
+	    bottom: 10px;
+	    left:52%;
+        transform: translateX(-50%);
+		z-index:999 !important;
+		width:80px;
+    }
+	
+	.IG-pc{
+		display: none;
+	}
+}
+/*line按鈕手機板*/
+
+
+/*line按鈕電腦板*/
+@media (min-width: 960px) {
+	.footer-mobile{
+		display: none;
+	}
+	.IG-mobile{
+		display: none;
+	}
+	
+	.IG-pc{
+        position: fixed;
+	    bottom: 200px;
+	    right:-25px;
+        transform: translateX(-50%);
+		z-index:999 !important;
+		width:80px;
+	}
+}
+/*line按鈕電腦板*/
+
+.IGIcon{
+    border-radius: 20px;
+    border="0";
+}
+.article-titleh1{font-size: 1.5rem !important;}
+
+.friendy-link{
+    display:none;
+}
